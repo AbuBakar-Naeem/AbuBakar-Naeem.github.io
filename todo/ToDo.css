@@ -1,0 +1,123 @@
+#bigContainer{
+    display: flex;
+    flex-direction: column;
+    background: rgb(39, 39, 39);
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    margin: -8px;
+}
+
+#error{
+    font-size: 2rem;
+    margin-right: 2rem;
+    padding-top: 25px;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#form{
+    background: none;
+    outline: none;
+    appearance: none;
+    border: none;
+}
+#inputMain{
+    width: 55vw;
+    height: 40px;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    border: 5px dashed linear-gradient( #f32170, #ff6b08,#cf23cf, #eedd44);
+    outline: none;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 10px; 
+    font-size : 2rem;          
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#submit{
+    height: 62px;
+    width: 13vw;
+    border-radius: 50px;
+    font-size : 2rem;     
+    border: none;     
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+#submit:hover{
+    transition: 0.1s ease-in-out;
+    border: 4px dashed black;
+    opacity: 0.8;
+}
+
+#input:hover{
+    transition: 0.7s ease-in-out;
+    border: 3px dashed rgb(189, 4, 35);
+    color: white;          
+}
+
+.content{
+    font-size : 2rem;
+    list-style : none;
+    margin-right: 2rem;
+    list-style : none;
+    width : 59vw;
+    height : 50px ;
+    margin-top : 5px;
+    padding-left : 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    color: wheat;
+    padding-top: 8px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.actionButtons{
+    margin-left: 51vw;
+    margin-top: -5vw;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    justify-content: center;
+    margin-top: -2px;
+    height: 9vh;
+    width: 4.6vw;
+}
+
+.editButton:hover{
+    transition: 0.4s ease-in-out;
+    opacity: 0.3;
+}
+
+.deleteButton{
+    outline: none;
+    -webkit-background-clip: text;
+    padding-left: 0px;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    height: 9vh;
+    width: 4.2vw;
+}
+
+.deleteButton:hover{
+    transition: 0.4s ease-in-out;
+    opacity: 0.5;
+}
+
+ 
