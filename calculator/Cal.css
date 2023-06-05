@@ -1,0 +1,45 @@
+*{
+    font-size:38px;
+}
+body{
+    background-color: black;
+}
+
+#bb{
+    background-color: black;
+    border: 3px dashed white;
+    border-radius: 5%;
+    max-width: 295px;
+    margin: 3.6vh auto 0 auto;
+}
+
+#display{
+    text-align: right;
+    color: white;
+    height: 80px;
+    font-size: 55px;
+    padding-right: 12px;
+}
+
+.button-container{
+    height: 65vh;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: px;
+}
+.button{ 
+    border: 1px dashed whitesmoke;
+    padding-top: 13px;
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.button:hover{
+    color:black;
+    background:grey;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
+
